@@ -1,7 +1,6 @@
 # Simula o arremesso de dados, com valores de 1 até 6
-
-import random
 import PySimpleGUI as sg
+import random
 
 class ArremessarDado:
     def __init__(self):
@@ -33,5 +32,5 @@ class ArremessarDado:
         valor = random.randint(self.minimo,self.maximo)
         print(f'O valor que saiu no dado foi: {valor}')
 
-simulador = ArremessarDado()
-simulador.Iniciar()
+arremesso = ArremessarDado()
+arremesso.Iniciar()
