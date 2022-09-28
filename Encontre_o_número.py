@@ -14,7 +14,7 @@ class EncontreNumero:
     def Iniciar(self):
         # Layout
         layout = [
-            [sg.Text('Sua tentativa',size=(39,0))],
+            [sg.Text('Sua tentativa',size=(40,0))],
             [sg.Input(size=(18,0),key='Valortentativa')],
             [sg.Button('Tentar!')],
             [sg.Output(size=(39,10))]
